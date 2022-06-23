@@ -460,6 +460,7 @@ p {
     nav {
         padding: 0 40px 0 40px;
     }
+
     .head {
         grid-template-columns: 1fr;
         height: 150%;
@@ -532,7 +533,7 @@ p {
     /* fizza */
     .fizza-content {
         grid-template-columns: 1fr;
-        
+
     }
 
     /* bottom-text */
@@ -657,32 +658,38 @@ p {
     ul li {
         margin: 5px;
     }
-    .main-head{
+
+    .main-head {
         height: 105vh;
     }
+
     .cards-content {
         width: 90%;
         margin-left: 5%;
     }
+
     .card-item {
         grid-template-columns: 1fr 1fr;
     }
+
     .bottom-content-footer {
         width: 90%;
         margin-left: 5%;
         padding: 10px;
         text-align: center;
     }
+
     .footer {
         padding: 100px 50px;
     }
 }
 
 
-@media screen and (min-width: 900px) and (max-width: 940px){
-    .main-head{
+@media screen and (min-width: 900px) and (max-width: 940px) {
+    .main-head {
         height: 105vh;
     }
+
     .bottom-content-footer {
         width: 80%;
         margin-left: 10%;
